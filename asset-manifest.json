@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ihrs/static/css/main.35cf0525.chunk.css",
+    "main.js": "/ihrs/static/js/main.10ea263a.chunk.js",
+    "main.js.map": "/ihrs/static/js/main.10ea263a.chunk.js.map",
+    "runtime-main.js": "/ihrs/static/js/runtime-main.361b1ee9.js",
+    "runtime-main.js.map": "/ihrs/static/js/runtime-main.361b1ee9.js.map",
+    "static/js/2.3cad3af0.chunk.js": "/ihrs/static/js/2.3cad3af0.chunk.js",
+    "static/js/2.3cad3af0.chunk.js.map": "/ihrs/static/js/2.3cad3af0.chunk.js.map",
+    "static/js/3.a591ddef.chunk.js": "/ihrs/static/js/3.a591ddef.chunk.js",
+    "static/js/3.a591ddef.chunk.js.map": "/ihrs/static/js/3.a591ddef.chunk.js.map",
+    "index.html": "/ihrs/index.html",
+    "static/css/main.35cf0525.chunk.css.map": "/ihrs/static/css/main.35cf0525.chunk.css.map",
+    "static/js/2.3cad3af0.chunk.js.LICENSE.txt": "/ihrs/static/js/2.3cad3af0.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/ihrs/static/media/bg.47a3239e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.361b1ee9.js",
+    "static/js/2.3cad3af0.chunk.js",
+    "static/css/main.35cf0525.chunk.css",
+    "static/js/main.10ea263a.chunk.js"
+  ]
+}
