@@ -11,22 +11,23 @@ class  App extends Component{
     student:"",
     topicList:topicList,
     topic:"",
-    prevList:[],
-    prevTopic:0
+    prevList:0,
+    prevTopic:0,
+    
   }
   getRandom=(len)=>{
     let index=Math.floor(Math.random() * len);
     return index;
   }
   showStudent=()=>{
-    let i=this.state.students.length;
+    let i=this.state.prevList;
     let index=this.getRandom(i); 
-    let prev=this.state.prevList;
-    while(prev.find((e)=> e=== index)){ 
+    let prev=parseInt(i)+1;
+   /*  while(prev.find((e)=> e=== index)){ 
       index=Math.floor(Math.random() * i);
-    }
-    this.setState({student:this.state.students[index]})
-    prev.push(index);
+    } */
+    this.setState({student:this.state.students[i]})
+    //prev.push(index);
     this.setState({prevList:prev})
    
   }
