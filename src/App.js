@@ -22,6 +22,10 @@ class  App extends Component{
   showStudent=()=>{
     let i=this.state.prevList;
     let index=this.getRandom(i); 
+    if(this.state.students.length-1 === i){
+      i=0;
+      this.setState({student:''})
+    }
     let prev=parseInt(i)+1;
    /*  while(prev.find((e)=> e=== index)){ 
       index=Math.floor(Math.random() * i);
